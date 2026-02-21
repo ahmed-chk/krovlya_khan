@@ -21,7 +21,7 @@
 .work-process__single {
     position: relative;
     display: block;
-    border: 1px solid rgba(var(--maroof-white-rgb), .20);
+    border: 1px solid rgba(var(--krovlya-white-rgb), .20);
     border-radius: 20px;
     padding: 39px 39px 39px;
     margin-bottom: 30px;
@@ -34,7 +34,7 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     border-radius: 20px;
     overflow: hidden;
     z-index: 1;
@@ -48,7 +48,7 @@
     content: "";
     top: 110%;
     left: 50%;
-    background-color: var(--maroof-white);
+    background-color: var(--krovlya-white);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: -1;
@@ -62,18 +62,18 @@
     position: relative;
     display: inline-block;
     font-size: 46px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .work-process__single:hover .work-process__icon span {
     transform: scale(0.9);
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .work-process__text {
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -85,17 +85,17 @@
 
 .work-process__btn {
     padding: 14px 29px 14px !important;
-    color: var(--maroof-white) !important;
-    border: 1px solid var(--maroof-white);
+    color: var(--krovlya-white) !important;
+    border: 1px solid var(--krovlya-white);
     background-color: transparent !important;
 }
 
 .work-process__btn:hover {
-    border: 1px solid var(--maroof-black);
+    border: 1px solid var(--krovlya-black);
 }
 
 .work-process__btn span {
-    color: var(--maroof-white) !important;
+    color: var(--krovlya-white) !important;
 }
 
 .work-process__count {
@@ -110,7 +110,7 @@
     font-size: 36px;
     line-height: 36px;
     font-weight: 700;
-    color: rgba(var(--maroof-white-rgb), .60);
+    color: rgba(var(--krovlya-white-rgb), .60);
     counter-increment: count;
     content: "0"counter(count);
     transition: all 200ms linear;

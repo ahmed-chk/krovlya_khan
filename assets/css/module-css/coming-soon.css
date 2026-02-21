@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: var(--maroof-black);
+    background-color: var(--krovlya-black);
     background-blend-mode: luminosity;
     z-index: -1;
 }
@@ -58,11 +58,11 @@
     color: transparent;
     font-size: 80px;
     line-height: 1.1em;
-    font-family: var(--maroof-font-2);
+    font-family: var(--krovlya-font-2);
     font-weight: 700;
     text-transform: uppercase;
     -webkit-background-clip: text;
-    -webkit-text-stroke: 1px var(--maroof-white);
+    -webkit-text-stroke: 1px var(--krovlya-white);
     word-spacing: 15px;
 }
 
@@ -97,7 +97,7 @@
     font-size: 55px;
     line-height: 60px;
     font-weight: 700;
-    font-family: var(--maroof-font);
+    font-family: var(--krovlya-font);
 }
 
 .coming-soon-page .timer-box .countdown-timer li span.timeRef {
@@ -109,7 +109,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 11px;
-    font-family: var(--maroof-font);
+    font-family: var(--krovlya-font);
 }
 
 .coming-soon-page__content .inner .text {
@@ -152,28 +152,28 @@
     border-radius: 30px;
     background: #ffffff;
     border: 1px solid #ffffff !important;
-    color: var(--maroof-gray);
+    color: var(--krovlya-gray);
     font-size: 16px;
     font-weight: 400;
     padding-left: 30px;
     padding-right: 30px;
     transition: all 500ms ease 0s;
-    font-family: var(--maroof-font);
+    font-family: var(--krovlya-font);
     outline: none;
 }
 
 .coming-soon-page__btn {
-    color: var(--maroof-white) !important;
+    color: var(--krovlya-white) !important;
 }
 
 .coming-soon-page__btn:hover {
-    color: var(--maroof-black) !important;
+    color: var(--krovlya-black) !important;
 }
 
 .coming-soon-page__btn:after {
-    background-color: var(--maroof-white) !important;
+    background-color: var(--krovlya-white) !important;
 }
 
 .coming-soon-page__btn span:hover {
-    background-color: var(--maroof-black) !important;
+    background-color: var(--krovlya-black) !important;
 }

@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     border-radius: 20px;
     margin-top: -125px;
     padding: 80px 60px 76px;
@@ -59,14 +59,14 @@
     position: relative;
     display: inline-block;
     font-size: 75px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .cta-one__title {
     font-size: 36px;
     font-weight: 700;
     line-height: 36px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .cta-one__btn-box {
@@ -75,13 +75,13 @@
 }
 
 .cta-one__btn {
-    color: var(--maroof-white) !important;
-    border: 1px solid var(--maroof-white);
+    color: var(--krovlya-white) !important;
+    border: 1px solid var(--krovlya-white);
     padding: 14px 29px 14px !important;
 }
 
 .cta-one__btn span {
-    color: var(--maroof-white) !important;
+    color: var(--krovlya-white) !important;
 }
 
 .cta-one__btn:hover {
@@ -160,11 +160,11 @@
     font-weight: 700;
     line-height: 59px;
     letter-spacing: -1.2px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .cta-two__text {
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     margin-top: 9px;
     margin-bottom: 22px;
 }
@@ -175,18 +175,18 @@
 }
 
 .cta-two__btn {
-    color: var(--maroof-white) !important;
-    border: 1px solid var(--maroof-white);
+    color: var(--krovlya-white) !important;
+    border: 1px solid var(--krovlya-white);
     background-color: transparent !important;
     padding: 14px 30px 14px !important;
 }
 
 .cta-two__btn:hover {
-    border: 1px solid var(--maroof-black);
+    border: 1px solid var(--krovlya-black);
 }
 
 .cta-two__btn span {
-    color: var(--maroof-white) !important;
+    color: var(--krovlya-white) !important;
 }
 
 /*--------------------------------------------------------------
@@ -204,7 +204,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     border-radius: 20px;
     padding: 60px 70px 56px;
     overflow: hidden;
@@ -230,7 +230,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(var(--maroof-base-rgb), .80);
+    background-color: rgba(var(--krovlya-base-rgb), .80);
     z-index: -1;
 }
 
@@ -256,7 +256,7 @@
     font-weight: 700;
     line-height: 58px;
     letter-spacing: -1.2px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     margin-bottom: 18px;
 }
 
@@ -272,11 +272,11 @@
     font-size: 26px;
     font-weight: 700;
     line-height: 36px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .cta-three__contact-number a:hover {
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .cta-three__right {
@@ -303,7 +303,7 @@
     justify-content: center;
     width: 65px;
     height: 65px;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -311,7 +311,7 @@
 }
 
 .cta-three__icon:hover {
-    background-color: var(--maroof-black);
+    background-color: var(--krovlya-black);
 }
 
 .cta-three__icon-shape {
@@ -320,7 +320,7 @@
     left: -7px;
     width: 65px;
     height: 65px;
-    background-color: var(--maroof-white);
+    background-color: var(--krovlya-white);
     border-radius: 50%;
     z-index: -1;
 }
@@ -329,7 +329,7 @@
     position: relative;
     display: inline-block;
     font-size: 20px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .cta-three__btn-box {
@@ -340,24 +340,24 @@
 
 .cta-three__btn {
     background-color: transparent !important;
-    border: 1px solid var(--maroof-white);
-    color: var(--maroof-white) !important;
+    border: 1px solid var(--krovlya-white);
+    color: var(--krovlya-white) !important;
     padding: 14px 30px 14px;
 }
 
 .cta-three__btn:hover {
-    border: 1px solid var(--maroof-black);
+    border: 1px solid var(--krovlya-black);
 }
 
 .cta-three__btn span {
-    color: var(--maroof-white) !important;
+    color: var(--krovlya-white) !important;
 }
 
 /*--------------------------------------------------------------
 # CTA Four
 --------------------------------------------------------------*/
 .cta-four {
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
 }
 
 

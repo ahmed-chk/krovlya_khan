@@ -31,7 +31,7 @@
     padding-left: 30px;
     transition: all 200ms linear;
     transition-delay: 0.1s;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 31px;
 }
 
@@ -40,14 +40,14 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     position: relative;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .faq-one__left .faq-one-accrodion .accrodion.active .accrodion-title h4 {
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .faq-one__left .faq-one-accrodion .accrodion+.accrodion {
@@ -59,7 +59,7 @@
     font-family: "Font Awesome 5 pro" !important;
     font-weight: 700;
     font-size: 16px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     position: absolute;
     top: 50%;
     right: 0px;
@@ -74,18 +74,18 @@
     text-align: center;
     width: 50px;
     height: 50px;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
 }
 
 .faq-one__left .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
     content: "\f175";
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     border-radius: 50%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
 }
 
 .faq-one__left .faq-one-accrodion .accrodion-content {
@@ -132,7 +132,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     border-radius: 20px;
     padding: 38px 60px 38px;
     margin-left: 49px;
@@ -150,7 +150,7 @@
     position: relative;
     display: inline-block;
     font-size: 40px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -177,7 +177,7 @@
     font-weight: 700;
     line-height: 59px;
     letter-spacing: -1.2px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .faq-one__count span {
@@ -185,12 +185,12 @@
     font-weight: 700;
     line-height: 59px;
     letter-spacing: -1.2px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .faq-one__count-box p {
     font-weight: 700;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     margin-top: 2px;
     font-size: 16px;
 }
@@ -210,7 +210,7 @@
     display: block;
     max-width: 1760px;
     border-radius: 50px;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
     width: 100%;
     margin: 0 auto;
     padding: 120px 0 0;
@@ -259,8 +259,8 @@
 .faq-two__right .faq-one-accrodion .accrodion {
     position: relative;
     display: block;
-    background-color: var(--maroof-white);
-    border: 1px solid var(--maroof-bdr-color);
+    background-color: var(--krovlya-white);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 37px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -285,14 +285,14 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     position: relative;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .faq-two__right .faq-one-accrodion .accrodion.active .accrodion-title h4 {
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .faq-two__right .faq-one-accrodion .accrodion+.accrodion {
@@ -304,7 +304,7 @@
     font-family: "Font Awesome 5 Pro";
     font-weight: 400;
     font-size: 16px;
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
     position: absolute;
     top: 50%;
     right: 0px;
@@ -320,18 +320,18 @@
     text-align: center;
     width: 30px;
     height: 30px;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
 }
 
 .faq-two__right .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
     content: "\f107";
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     border-radius: 50%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
 }
 
 .faq-two__right .faq-one-accrodion .accrodion-content {
@@ -360,7 +360,7 @@
     justify-content: center;
     width: 45px;
     height: 45px;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;

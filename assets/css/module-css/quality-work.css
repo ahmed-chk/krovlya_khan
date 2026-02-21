@@ -11,7 +11,7 @@
 .quality-work__inner {
     position: relative;
     display: block;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
     padding: 60px 40px 60px;
     border-radius: 20px;
 }
@@ -55,7 +55,7 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     margin-bottom: 3px;
     padding-left: 4px;
 }
@@ -64,7 +64,7 @@
     position: relative;
     width: 100%;
     height: 5px;
-    background-color: rgba(var(--maroof-bdr-color-rgb), .50);
+    background-color: rgba(var(--krovlya-bdr-color-rgb), .50);
     border-radius: 3px;
 }
 
@@ -74,7 +74,7 @@
     width: 0px;
     height: 5px;
     border-radius: 3px;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -86,7 +86,7 @@
     position: absolute;
     right: -14px;
     bottom: 8px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     line-height: 26px;
     font-size: 20px;
     text-align: center;

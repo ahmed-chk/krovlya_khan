@@ -35,21 +35,21 @@
 .we-serve__main-tab-box .tab-buttons .tab-btn span {
     position: relative;
     display: block;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 30px;
     font-weight: 700;
     padding: 14px 30px 14px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .we-serve__main-tab-box .tab-buttons .tab-btn:hover span {
-    border: 1px solid var(--maroof-base);
+    border: 1px solid var(--krovlya-base);
 }
 
 .we-serve__main-tab-box .tab-buttons .tab-btn.active-btn span {
-    border: 1px solid var(--maroof-base);
+    border: 1px solid var(--krovlya-base);
 }
 
 .we-serve__main-tab-box .tabs-content {
@@ -89,7 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--maroof-white);
+    background: var(--krovlya-white);
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     border-radius: 50px;
     padding: 70px 60px 80px;
@@ -101,7 +101,7 @@
     line-height: 16px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .we-serve__content-title {
@@ -113,7 +113,7 @@
 }
 
 .we-serve__content-title span {
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .we-serve__points-box {
@@ -142,7 +142,7 @@
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .we-serve__content-right {
@@ -191,14 +191,14 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 36px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .we-serve__count-text {
     font-size: 12px;
     line-height: 12px;
     text-transform: capitalize;
-    color: rgba(var(--maroof-black-rgb), .80);
+    color: rgba(var(--krovlya-black-rgb), .80);
     font-weight: 400;
 }
 
@@ -242,17 +242,17 @@
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.32px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     gap: 15px;
 }
 
 .we-serve__content-review a:hover {
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .we-serve__content-review a span {
     font-size: 12px;
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 

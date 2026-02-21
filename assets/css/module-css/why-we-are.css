@@ -12,7 +12,7 @@
     display: block;
     max-width: 1760px;
     margin: 0 auto;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
     border-radius: 20px;
     padding: 120px 0 120px;
 }
@@ -38,9 +38,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 20px;
-    background-color: var(--maroof-white);
+    background-color: var(--krovlya-white);
     padding: 17px 30px 20px;
 }
 
@@ -60,11 +60,11 @@
 }
 
 .why-we-are__list-content h3 a {
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .why-we-are__list-content h3 a:hover {
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .why-we-are__list-content p {
@@ -83,18 +83,18 @@
     justify-content: center;
     width: 65px;
     height: 65px;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 50%;
     font-size: 20px;
     color: transparent;
-    -webkit-text-stroke: 1px var(--maroof-base);
+    -webkit-text-stroke: 1px var(--krovlya-base);
 }
 
 .why-we-are__list-arrow a:hover {
-    background-color: var(--maroof-base);
-    color: var(--maroof-white);
+    background-color: var(--krovlya-base);
+    color: var(--krovlya-white);
     -webkit-text-stroke: none;
-    border: 1px solid var(--maroof-base);
+    border: 1px solid var(--krovlya-base);
 }
 
 .why-we-are__list-arrow a span {
@@ -135,7 +135,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    border: 12px solid var(--maroof-white);
+    border: 12px solid var(--krovlya-white);
     border-radius: 20px;
 }
 
@@ -159,7 +159,7 @@
     display: block;
     max-width: 1760px;
     margin: 0 auto;
-    background-color: var(--maroof-black);
+    background-color: var(--krovlya-black);
     border-radius: 20px;
     padding: 120px 0 350px;
 }
@@ -203,7 +203,7 @@
     bottom: 72px;
     max-width: 191px;
     width: 100%;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     border-radius: 20px;
     text-align: center;
     padding: 22px 20px 22px;
@@ -217,7 +217,7 @@
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: rgba(var(--maroof-white-rgb), .10);
+    background-color: rgba(var(--krovlya-white-rgb), .10);
     border-radius: 50%;
     margin: 0 auto;
     -webkit-transition: all 500ms ease;
@@ -225,14 +225,14 @@
 }
 
 .why-we-are-two__count-box:hover .why-we-are-two__count-icon {
-    background-color: var(--maroof-black);
+    background-color: var(--krovlya-black);
 }
 
 .why-we-are-two__count-icon span {
     position: relative;
     display: inline-block;
     font-size: 32px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .why-we-are-two__count-inner {
@@ -253,7 +253,7 @@
     font-weight: 700;
     line-height: 44px;
     letter-spacing: -0.94px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .why-we-are-two__count-plus {
@@ -261,13 +261,13 @@
     font-weight: 700;
     line-height: 44px;
     letter-spacing: -0.94px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .why-we-are-two__count-text {
     font-size: 12px;
     line-height: 23px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .why-we-are-two__right {
@@ -281,7 +281,7 @@
 }
 
 .why-we-are-two__right .section-title__title {
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .why-we-are-two__list {
@@ -294,7 +294,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid rgba(var(--maroof-white-rgb), .20);
+    border: 1px solid rgba(var(--krovlya-white-rgb), .20);
     border-radius: 20px;
     padding: 20px 30px 18px;
 }
@@ -307,12 +307,12 @@
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .why-we-are-two__list li p {
     font-size: 16px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     margin-top: 10px;
 }
 
@@ -333,7 +333,7 @@
     font-size: 36px;
     line-height: 36px;
     font-weight: 700;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     border-radius: 50%;
     counter-increment: count;
     content: "0"counter(count);

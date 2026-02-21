@@ -5,7 +5,7 @@
     position: relative;
     display: block;
     padding: 25px 0 25px;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     z-index: 1;
 }
 
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     gap: 45px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
     letter-spacing: -1.48px;
     font-size: 45px;
     line-height: 55px;
@@ -48,7 +48,7 @@
 
 .sliding-text__title-bdr {
     color: transparent;
-    -webkit-text-stroke: 1px var(--maroof-white);
+    -webkit-text-stroke: 1px var(--krovlya-white);
 }
 
 .sliding-text__title img {
@@ -66,7 +66,7 @@
     top: 0;
     left: 0;
     width: 0;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     white-space: nowrap;
     content: attr(data-hover);
     transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
@@ -74,7 +74,7 @@
 
 .sliding-text__list li:hover .sliding-text__title:before {
     width: 100%;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 

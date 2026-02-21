@@ -26,7 +26,7 @@
     font-size: 350px;
     line-height: 350px;
     font-weight: 500;
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
     z-index: 2;
 }
 
@@ -34,7 +34,7 @@
     font-size: 40px;
     line-height: 49px;
     font-weight: 400;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     text-transform: capitalize;
     margin-bottom: 15px;
 }
@@ -61,10 +61,10 @@
     height: 52px;
     width: 100%;
     outline: none;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
     border: 0;
     font-size: 14px;
-    color: var(--maroof-gray);
+    color: var(--krovlya-gray);
     font-weight: 500;
     padding-left: 50px;
     padding-right: 75px;
@@ -73,7 +73,7 @@
 
 .error-page__form button[type="submit"] {
     background-color: transparent;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     font-size: 22px;
     position: absolute;
     top: 0;

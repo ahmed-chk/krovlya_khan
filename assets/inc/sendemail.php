@@ -1,8 +1,8 @@
 <?php
 
 // Define Host Info || Who is sending emails?
-define("HOST_NAME", "Poitech Mailer");
-define("HOST_EMAIL", "poitech@mail.com");
+define("HOST_NAME", "Krovlya Khan");
+define("HOST_EMAIL", "noreply@krovlya-khan.ru");
 
 // Define SMTP Credentials || Gmail Informations
 define("SMTP_EMAIL", "mail@gmail.com");
@@ -10,8 +10,8 @@ define("SMTP_PASSWORD", "your_gmail_pass"); // read documentations
 
 
 // Define Recipent Info ||  Who will get this email?
-define("RECIPIENT_NAME", "John Doe");
-define("RECIPIENT_EMAIL", "jhon@mail.com");
+define("RECIPIENT_NAME", "Krovlya Khan");
+define("RECIPIENT_EMAIL", "info@krovlya-khan.ru");
 
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -47,7 +47,7 @@ try {
 	//Content
 	$name = isset($_POST['name']) ? preg_replace("/[^\.\-\' a-zA-Z0-9]/", "", $_POST['name']) : "";
 	$senderEmail = isset($_POST['email']) ? preg_replace("/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['email']) : "";
-	$phone = isset($_POST['phone']) ? preg_replace("/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['phone']) : "";
+	$phone = isset($_POST['phone']) ? preg_replace("/[^\.\-\_\@a-zA-Z0-9\+\(\)\s]/", "", $_POST['phone']) : (isset($_POST['Phone']) ? preg_replace("/[^\.\-\_\@a-zA-Z0-9\+\(\)\s]/", "", $_POST['Phone']) : "");
 	$services = isset($_POST['services']) ? preg_replace("/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['services']) : "";
 	$subject = isset($_POST['subject']) ? preg_replace("/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['subject']) : "";
 	$address = isset($_POST['address']) ? preg_replace("/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['address']) : "";
@@ -55,16 +55,16 @@ try {
 	$message = isset($_POST['message']) ? preg_replace("/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message']) : "";
 
 	$mail->isHTML(true);                                  //Set email format to HTML
-	$mail->Subject = 'A contact request send by ' . $name;
-	$mail->Body    = 'Name: ' . $name . "<br>";
+	$mail->Subject = 'Заявка с сайта Кровля Хан: ' . $name;
+	$mail->Body    = 'Имя: ' . $name . "<br>";
 	$mail->Body .= 'Email: ' . $senderEmail . "<br>";
 
 
 	if ($phone) {
-		$mail->Body .= 'Phone: ' . $phone . "<br>";
+		$mail->Body .= 'Телефон: ' . $phone . "<br>";
 	}
 	if ($services) {
-		$mail->Body .= 'services: ' . $services . "<br>";
+		$mail->Body .= 'Услуга: ' . $services . "<br>";
 	}
 	if ($subject) {
 		$mail->Body .= 'Subject: ' . $subject . "<br>";
@@ -76,10 +76,10 @@ try {
 		$mail->Body .= 'Website: ' . $website . "<br>";
 	}
 
-	$mail->Body .= 'message: ' . "<br>" . $message;
+	$mail->Body .= 'Сообщение: ' . "<br>" . $message;
 
 	$mail->send();
-	echo "<div class='inner success'><p class='success'>Thanks for contacting us. We will contact you ASAP!</p></div><!-- /.inner -->";
+	echo "<div class='inner success'><p class='success'>Спасибо! Мы свяжемся с вами в ближайшее время.</p></div><!-- /.inner -->";
 } catch (Exception $e) {
-	echo "<div class='inner error'><p class='error'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</p></div><!-- /.inner -->";
+	echo "<div class='inner error'><p class='error'>Ошибка отправки. Mailer Error: {$mail->ErrorInfo}</p></div><!-- /.inner -->";
 }

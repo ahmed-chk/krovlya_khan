@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 20px;
     padding: 39px 39px 39px;
     margin-bottom: 30px;
@@ -24,7 +24,7 @@
     display: block;
     max-width: 300px;
     width: 100%;
-    border-right: 1px solid var(--maroof-bdr-color);
+    border-right: 1px solid var(--krovlya-bdr-color);
     padding-right: 20px;
 }
 
@@ -43,7 +43,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--maroof-black);
+    background: var(--krovlya-black);
     opacity: 0;
     transition: background-color 0.5s ease;
     transition: all 0.5s ease;
@@ -78,11 +78,11 @@
 }
 
 .team-one__title a {
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .team-one__title a:hover {
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .team-one__sub-title {
@@ -111,10 +111,10 @@
     justify-content: center;
     width: 30px;
     height: 30px;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
     border-radius: 50%;
     font-size: 16px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     overflow: hidden;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -122,8 +122,8 @@
 }
 
 .team-one__social a:hover {
-    color: var(--maroof-white);
-    background-color: var(--maroof-base);
+    color: var(--krovlya-white);
+    background-color: var(--krovlya-base);
 }
 
 .team-one__social a:after {
@@ -133,7 +133,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     -webkit-transition-delay: .1s;
     transition-delay: .1s;
     -webkit-transition-timing-function: ease-in-out;
@@ -201,7 +201,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(var(--maroof-black-rgb), .40);
+    background-color: rgba(var(--krovlya-black-rgb), .40);
     visibility: hidden;
     -webkit-transform-origin: top center;
     transform-origin: top center;
@@ -234,7 +234,7 @@
 .team-two__content {
     position: relative;
     display: block;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 20px;
     text-align: center;
     padding: 192px 30px 39px;
@@ -278,11 +278,11 @@
 }
 
 .team-two__title a {
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .team-two__title a:hover {
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .team-two__sub-title {
@@ -299,7 +299,7 @@
     right: -12px;
     bottom: -11px;
     height: 1px;
-    background-color: var(--maroof-bdr-color);
+    background-color: var(--krovlya-bdr-color);
 }
 
 .team-two__social {
@@ -317,10 +317,10 @@
     justify-content: center;
     width: 30px;
     height: 30px;
-    background-color: var(--maroof-primary);
+    background-color: var(--krovlya-primary);
     border-radius: 50%;
     font-size: 14px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     overflow: hidden;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -328,8 +328,8 @@
 }
 
 .team-two__social a:hover {
-    color: var(--maroof-white);
-    background-color: var(--maroof-base);
+    color: var(--krovlya-white);
+    background-color: var(--krovlya-base);
 }
 
 .team-two__social a:after {
@@ -339,7 +339,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     -webkit-transition-delay: .1s;
     transition-delay: .1s;
     -webkit-transition-timing-function: ease-in-out;
@@ -378,7 +378,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     margin: 0px 10px;
     padding: 0px;
     transition: all 100ms linear;
@@ -392,7 +392,7 @@
     right: -7px;
     bottom: -7px;
     content: "";
-    border: 2px solid var(--maroof-base);
+    border: 2px solid var(--krovlya-base);
     border-radius: 50%;
     transform: scale(0);
     transition: all 100ms linear;
@@ -426,7 +426,7 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 20px;
     padding: 60px 39px 60px;
     z-index: 1;
@@ -507,15 +507,15 @@
     width: 30px;
     height: 30px;
     font-size: 16px;
-    color: var(--maroof-black);
-    border: 1px solid var(--maroof-bdr-color);
+    color: var(--krovlya-black);
+    border: 1px solid var(--krovlya-bdr-color);
     border-radius: 50%;
 }
 
 .team-details__social a:hover {
-    border: 1px solid var(--maroof-base);
-    background-color: var(--maroof-base);
-    color: var(--maroof-white);
+    border: 1px solid var(--krovlya-base);
+    background-color: var(--krovlya-base);
+    color: var(--krovlya-white);
 }
 
 .team-details__top-text {
@@ -537,18 +537,18 @@
 
 .team-details__btn {
     padding: 14px 29px 14px !important;
-    border: 1px solid var(--maroof-bdr-color) !important;
+    border: 1px solid var(--krovlya-bdr-color) !important;
     background-color: transparent !important;
 }
 
 .team-details__btn span {
-    color: var(--maroof-black) !important;
+    color: var(--krovlya-black) !important;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .team-details__btn:hover span {
-    color: var(--maroof-white) !important;
+    color: var(--krovlya-white) !important;
 }
 
 .team-details__contact {
@@ -565,21 +565,21 @@
     justify-content: center;
     width: 65px;
     height: 65px;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .team-details__contact .icon:hover {
-    background-color: var(--maroof-black);
+    background-color: var(--krovlya-black);
 }
 
 .team-details__contact .icon span {
     position: relative;
     display: inline-block;
     font-size: 22px;
-    color: var(--maroof-white);
+    color: var(--krovlya-white);
 }
 
 .team-details__contact h3 {
@@ -589,11 +589,11 @@
 }
 
 .team-details__contact h3 a {
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
 }
 
 .team-details__contact h3 a:hover {
-    color: var(--maroof-base);
+    color: var(--krovlya-base);
 }
 
 .team-details__bottom {
@@ -642,7 +642,7 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     margin-bottom: 4px;
 }
 
@@ -650,7 +650,7 @@
     position: relative;
     width: 100%;
     height: 8px;
-    background-color: var(--maroof-bdr-color);
+    background-color: var(--krovlya-bdr-color);
     border-radius: 4px;
 }
 
@@ -660,7 +660,7 @@
     width: 0px;
     height: 8px;
     border-radius: 4px;
-    background-color: var(--maroof-base);
+    background-color: var(--krovlya-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -672,7 +672,7 @@
     position: absolute;
     right: -14px;
     bottom: 8px;
-    color: var(--maroof-black);
+    color: var(--krovlya-black);
     line-height: 26px;
     font-size: 16px;
     text-align: center;
